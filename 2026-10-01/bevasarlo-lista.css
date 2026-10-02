@@ -21,3 +21,22 @@ img {
 .nagy-meretu-betu{
     font-size: 92px 
 }
+
+.kiemelt{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.dolt-piros-felkover{
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+#kep-kenyer{
+    background-color: blue;
+}
+
+#kep-kolbasz{
+    background-color: yellow;
+}
