@@ -1,0 +1,43 @@
+thead{
+    background-color: #ccc;
+    color: blue
+}
+
+td{
+    text-align: center;
+}
+
+tbody{
+    color: #888
+}
+
+tfoot{
+    background-color: red;
+    color: white
+}
+
+tbody td{
+    border-color:green;
+    border-width: 2px;
+    border-style: solid;
+}
+
+thead th{
+    border: 2px dotted yellow
+}
+
+tfoot th, tfoot td{
+    border-top-width: 5px;
+    border-top-style: double;
+    border-top-color: lime;
+
+    border-bottom: 5px double pink;
+    
+    border-right: 5px double #777;
+    border-left: 5px double #777;
+}
+
+table{
+    border-collapse: collapse;
+}
+
