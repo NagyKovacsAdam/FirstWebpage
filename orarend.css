@@ -1,0 +1,54 @@
+table{
+    border-collapse: collapse;
+}
+
+th{
+    border: 3px solid black;
+}
+
+td{
+    text-align: center;
+    font-size: large;
+    border: 1px solid black
+}
+
+.fizika{
+    background-color: blue;
+}
+
+.irodalom{
+    background-color:chocolate
+}
+
+.ofi{
+    background-color: bisque;
+}
+
+.matek{
+    background-color: coral;
+}
+
+.termeszet{
+    background-color: green;
+}
+
+.tori{
+    background-color: cadetblue;
+
+}
+
+.angol{
+    background-color: crimson;
+}
+
+.digi{
+    background-color: darkgrey;
+}
+
+.nyelvtan{
+    background-color: chartreuse;
+}
+
+.progr{
+    background-color: darkblue;
+}
