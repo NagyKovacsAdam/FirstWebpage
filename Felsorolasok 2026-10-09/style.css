@@ -1,0 +1,22 @@
+ol{
+    list-style-type: lower-greek;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.happy{
+    list-style-image: url("happy.png");
+}
+
+.napok{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.no-margin{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
