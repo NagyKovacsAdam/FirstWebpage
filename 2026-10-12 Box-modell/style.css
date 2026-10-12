@@ -1,0 +1,19 @@
+.kulso{
+    background-color: beige;
+    width: 400px;
+    height: 300px;
+}
+
+.belso{
+    background-color: darkgrey;
+    margin: 20px;
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.piros{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
