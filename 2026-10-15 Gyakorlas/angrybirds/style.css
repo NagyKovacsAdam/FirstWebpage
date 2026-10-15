@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.tartalom{
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(Hatter.png);
+    background-repeat:repeat-y;
+    padding: 20px;
+}
+
+.kozep{
+    text-align: center;
+}
+
+.dolt-kek{
+    font-style: italic;
+    color: blue;
+}
+
+.piros{
+    color: red;
+}
