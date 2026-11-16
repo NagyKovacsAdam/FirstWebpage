@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Régi magyar űrmértékek</title>
+    <link rel="stylesheet" href="urmertekek.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>
+            Régi űrmértékek
+        </h1>
+        <img class="korsok" src="korsok.jpg" alt="Iccés korsó" title="Iccés korsó">
+        <p>
+            A legkisebb a <b>meszely</b>, amely fél iccével volt egyenlő, azaz valamivel több, mint négy deciliter. Ennél kisebb ivóedény nem létezett a kocsmákban... Erről a mértékegységről kapta a nevét az ugyanekkora mérető agyagkorsó.
+        </p>
+        <p>
+            A kétmeszelynyi <b>icce</b> nagysága területenként változó: általában 8,5 deci körül volt - a magyar icce egészen pontosan 848 mililiter - de az erdélyi icce ennél kisebb, körülbelül hét deci. Közismert történet a részeges cinkotai kántorról, aki Mátyás királytól azt kérte jutalmul, hogy náluk legyen az icce kétszer akkora, mint máshol. Meg is kapta ezt a királyi kegyet, és csak akkor döbbent meg, amikor a nagyiccéért a kocsmáros kétszer annyi pénzt kér, mint a kisiccéért - mert bizony azt elfelejtette kérni a királytól a feledékeny kántor, hogy a nagyicce ára legyen ugyanannyi, mint a kisiccéé...
+        </p>
+        <img class="hordo" src="goncihordo.jpg" alt="Gönci hordó" title="Gönci hordó">
+        <p>
+            A nagyság szerinti sorban a latin 'jelzett', vagyis pinctu szóból eredő <b>pint</b> következik, ami négy meszellyel, vagyis két iccével azonos - tehát körülbelül 1,7 liter.
+        </p>
+        <p>
+            A <b>köböl</b> rendkívül változó, területenként 12 litertől akár 42 literig bármekorra lehetett: az eredetileg 'faedényt' jelentő <b>cseber</b> pedig ötven vagy száz iccét tartalmazott, attól függően, hogy kiscseberről, vagy nagycseberről volt szó.
+        </p>
+        <p>
+            Zsong már a fejük? Pedig még nem volt szó <b>a mérő, a kanta, az átalag, a fertály, a szapu és a kupa</b> jelentéséről, de az <b>akó</b> semmiképpen nem maradhat ki, hiszen ezzel mérték a hordók nagyságát. Országoktól, sőt városoktól és történelmi koroktól függően 50 és 54 liter közötti mennyiség lehetett egy akó, hiszen csak azt határozták meg, hogy egy magyar akó 64 iccel, azaz 32 pint legyen - de bizony területenként a pintnyi bor mennyisége is eltérő lehetett. Mindenesetre Hegyalján a száz liternél, vagy egy hektónál kisebb, ám fél hektónál nagyobb hordókat mai is akós hordónak hívják; de persze a legismertebb tokaji mértékegység a <b>gönci hordó</b>, amelybe 160 icce, vagyik 136 liter aszúbor fér el.
+        </p>
+        <hr class="vonal">
+        <form>
+        <fieldset>
+            <legend>Átváltások</legend>
+            
+            <input type="radio" name="mertekegyseg" id="radio_dl" value="dl" checked>
+            <input type="number" id="input_dl">
+            <label for="input_dl">deciliter</label><br>
+            
+            <input type="radio" name="mertekegyseg" id="radio_icce" value="icce">
+            <input type="number" id="input_icce">
+            <label for="input_icce">magyar icce</label><br>
+            
+            <input type="radio" name="mertekegyseg" id="radio_pint" value="pint">
+            <input type="number" id="input_pint">
+            <label for="input_pint">pint</label><br>
+            
+            <button type="button" id="szamol">Számol</button>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(220 220 220);
+    font-size: 13pt;
+}
+
+#wrapper {
+    max-width: 1280px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: rgb(129 129 255);
+    text-align:center;
+    padding: 20px;
+}
+
+.vonal {
+    width: 80%;
+    margin: 30px;
+}
+
+fieldset {
+    width: 250px;
+    margin: 0 auto;
+    padding-left: 100px;
+}
+
+legend {
+    margin-left: -90px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+
+p{
+    text-align: justify;
+}
+
+.korsok{
+    height: 200px;
+    float: right;
+    margin-left: 20px ;
+}
+
+.hordo{
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+img{
+    border: 2px solid blue;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+#szamol {
+    width: 140px;
+}
